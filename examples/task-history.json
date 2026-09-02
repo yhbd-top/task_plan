@@ -1,0 +1,19 @@
+{
+  "_doc": "Example of a populated history file. Real history files are written by the plugin after each tool call; entries are merged by pattern id with occurrences++.",
+  "patterns": {
+    "rollback": {
+      "label": "回滚方案",
+      "gap_note": "目标含破坏性改动关键词，但计划没有出现「回滚/回退/rollback」相关步骤：失败时如何回到改之前？",
+      "occurrences": 3,
+      "first_seen_at": 1734500000000,
+      "last_seen_at": 1734590000000
+    },
+    "build_dist": {
+      "label": "构建产物可分发性",
+      "gap_note": "涉及分发但没明确产物形态/接收方/传输方式，谁拿？怎么验？",
+      "occurrences": 1,
+      "first_seen_at": 1734590000000,
+      "last_seen_at": 1734590000000
+    }
+  }
+}
